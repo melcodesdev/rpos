@@ -9,15 +9,6 @@ export default {
       'sm': '500px'
     },
 
-    // colors: {
-    //   'black': '#000000',
-    //   'white': '#ffffff',
-    //   'gray-light': '#f5f5f5',
-    //   'purple-light': '#fdf4ff',
-    //   'purple-bright': 'd946ef',
-    //   'purple-gradient': 'linear-gradient(to bottom, #d946ef, #ff968f)'
-    // },
-
     fontFamily: {
       inter: ['Inter', 'sans-serif'],
       bebasNeue: ['Bebas Neue', 'sans-serif'],
@@ -27,8 +18,10 @@ export default {
       bungee: ['Bungee', 'cursive'],
     },
 
-    extend: {},
+    extend: {
+    },
   },
+  
   plugins: [],
 }
 
