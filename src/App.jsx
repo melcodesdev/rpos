@@ -1,10 +1,12 @@
 import { useState } from 'react'
 
 import Homepage from './components/Homepage';
-import Clients from './components/Clients';
-import Features from './components/Features';
-import Display from './components/Display';
+import Overview from './components/Overview';
+import Product from './components/Product';
 import Testimonials from './components/Testimonials';
+import Pricing from './components/Pricing';
+import Faq from './components/Faq';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -13,10 +15,12 @@ function App() {
   return (
     <>
     <Homepage />
-    <Clients />
-    <Features />
-    <Display />
+    <Overview />
+    <Product />
     <Testimonials />
+    <Pricing />
+    <Faq />
+    <Footer />
     </>
   )
 }
