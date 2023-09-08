@@ -2,10 +2,10 @@ import React from 'react'
 
 const Faq = () => {
     return (
-        <section className='flex flex-col mx-4 my-8'>
+        <section className='flex flex-col mx-4 xs:mx-16 my-8 sm:my-16'>
             <h1 className='text-3xl font-medium mx-auto'>F.A.Q</h1>
 
-            <div className='text-xs my-4 text-justify'>
+            <div className='text-xs sm:text-base lg:text-lg my-4 text-justify'>
                 <p className='font-semibold mt-6'>What is Rpos?</p>
                 <p className='mt-2'>Rpos is a cutting-edge Point of Sale (POS) software as a service (SaaS) designed specifically for restaurants. It provides a comprehensive suite of tools and features to help restaurant owners streamline their operations, manage orders, and enhance customer experiences.</p>
 
@@ -32,7 +32,7 @@ const Faq = () => {
                 <p className='mt-2'>Yes, Rpos prioritizes security and compliance. It adheres to industry standards for data protection and offers features like secure payment processing and role-based access control to safeguard sensitive information. Additionally, it helps restaurants comply with various regulatory requirements, such as POS data security standards (PCI DSS).</p>
             </div>
 
-            <p className='text-xs my-4 text-justify'>Dont find what you’re looking for? <br />
+            <p className='text-xs sm:text-base lg:text-lg my-4 text-justify'>Dont find what you’re looking for? <br />
                 <span className='font-medium underline underline-offset-2'>Send us an email</span>
             </p>
         </section>
