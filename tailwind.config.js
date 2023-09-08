@@ -5,10 +5,6 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    screens: {
-      'sm': '500px'
-    },
-
     fontFamily: {
       inter: ['Inter', 'sans-serif'],
       bebasNeue: ['Bebas Neue', 'sans-serif'],
@@ -19,6 +15,9 @@ export default {
     },
 
     extend: {
+      screens: {
+        'xs': '500px'
+      }
     },
   },
   
