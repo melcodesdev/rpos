@@ -3,10 +3,10 @@ import React from 'react'
 const Testimonials = () => {
   return (
     <section className='flex flex-col text-center font-inter mt-14'>
-      <h1 className='text-xl mx-4'>We <span className='text-fuchsia-500 font-semibold'>love</span> our customers</h1>
-      <h2 className='text-sm mb-10'>And they do too!</h2>
+      <h1 className='text-xl sm:text-3xl mx-4'>We <span className='text-fuchsia-500 font-semibold'>love</span> our customers</h1>
+      <h2 className='text-sm sm:text-lg mb-10'>And they love us too!</h2>
 
-      <section className='flex flex-row overflow-x-scroll mt-2'>
+      <section className='flex flex-row overflow-x-scroll mt-2 xs:ml-8 lg:mx-auto'>
         <div className='ml-2'>
           <div className='w-64 h-60 bg-fuchsia-50 rounded-lg p-4'>
             <div className='flex flex-row'>
@@ -37,7 +37,7 @@ const Testimonials = () => {
           </div>
         </div>
 
-        <div className='ml-2'>
+        <div className='ml-2 mr-2 xs:mr-10 lg:mr-0'>
           <div className='w-64 h-60 bg-fuchsia-50 rounded-lg p-4'>
             <div className='flex flex-row'>
               <img className='h-12 rounded-full' src="/images/testimonial_3.jpg" alt="Client photo" />
@@ -53,7 +53,7 @@ const Testimonials = () => {
         </div>
       </section>
 
-      <section className='flex flex-row overflow-x-scroll mt-2 mb-14'>
+      <section className='flex flex-row overflow-x-scroll mt-2 mb-16 xs:ml-8 lg:mx-auto'>
         <div className='ml-2'>
           <div className='w-64 h-60 bg-fuchsia-50 rounded-lg p-4'>
             <div className='flex flex-row'>
@@ -84,7 +84,7 @@ const Testimonials = () => {
           </div>
         </div>
 
-        <div className='ml-2'>
+        <div className='ml-2 mr-2 xs:mr-10 lg:mr-0'>
           <div className='w-64 h-60 bg-fuchsia-50 rounded-lg p-4'>
             <div className='flex flex-row'>
               <img className='h-12 rounded-full' src="/images/testimonial_6.jpg" alt="Client photo" />
