@@ -5,7 +5,7 @@ const Pricing = () => {
     return (
         // Pricing plan cards section
         <section id='pricing' className='xl:min-h-screen flex flex-col w-screen bg-neutral-900 font-inter'>
-            <h1 className='text-4xl sm:text-6xl bg-gradient-to-r from-rose-400 to-fuchsia-500 text-transparent bg-clip-text font-semibold mx-auto mt-8 sm:mt-8 mb-8 px-4'>Get started today</h1>
+            <h1 className='text-4xl sm:text-6xl text-white font-semibold mx-auto mt-8 sm:mt-8 mb-8 px-4'>Get started today</h1>
 
             <section className='xl:flex xl:flex-row xl:mt-[10vh] xl:mb-12'>
                 <div className='w-60 sm:w-3/5 lg:w-1/2 xl:w-[30vw] flex flex-col text-white mx-auto xl:mt-2 p-2 sm:p-8'>
