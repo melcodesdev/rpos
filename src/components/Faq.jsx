@@ -2,6 +2,7 @@ import React from 'react'
 
 const Faq = () => {
     return (
+        // FAQ section
         <section className='flex flex-col mx-4 xs:mx-16 xl:mx-32 my-8 sm:my-16'>
             <h1 className='text-3xl xl:text-6xl font-medium mx-auto xl:mb-10'>F.A.Q</h1>
 
@@ -47,7 +48,7 @@ const Faq = () => {
             </div>
 
             <p className='text-xs sm:text-base lg:text-lg my-4 xl:ml-12 xl:mt-16 text-justify'>Dont find what you’re looking for? <br />
-                <span className='font-medium underline underline-offset-2'>Send us an email</span>
+                <a href='mailto:melcodes.dev@gmail.com' className='font-medium underline underline-offset-2 hover:opacity-50'>Send us an email</a>
             </p>
         </section>
     )
