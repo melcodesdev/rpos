@@ -4,10 +4,10 @@ import { Link } from 'react-router-dom';
 const Pricing = () => {
     return (
         // Pricing plan cards section
-        <section id='pricing' className='xl:min-h-screen flex flex-col w-screen bg-neutral-900 font-inter'>
-            <h1 className='text-4xl sm:text-6xl text-white font-semibold mx-auto mt-8 sm:mt-8 mb-8 px-4'>Get started today</h1>
+        <section id='pricing' className='xl:min-h-screen flex flex-col w-screen bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 font-inter'>
+            <h1 className='text-3xl sm:text-6xl text-white font-semibold mx-auto my-8 px-4 pt-8'>Get started today</h1>
 
-            <section className='xl:flex xl:flex-row xl:mt-[10vh] xl:mb-12'>
+            <section className='xl:flex xl:flex-row xl:mt-[7vh] xl:mb-12'>
                 <div className='w-60 sm:w-3/5 lg:w-1/2 xl:w-[30vw] flex flex-col text-white mx-auto xl:mt-2 p-2 sm:p-8'>
                     <h2 className='text-xl sm:text-2xl font-bold mx-auto'>Starter</h2>
                     <h1 className='text-4xl sm:text-6xl font-bold mx-auto my-2'>$19</h1>
@@ -53,7 +53,7 @@ const Pricing = () => {
                     <h1 className='text-4xl sm:text-6xl font-bold mx-auto my-2'>$49</h1>
                     <h4 className='text-xs sm:text-lg mx-auto'>For scaled business management</h4>
 
-                    <Link to="/sign-up" className='w-52 sm:w-80 lg:w-[22rem] xl:w-80 h-8 sm:h-10 bg-fuchsia-500 hover:bg-fuchsia-600 rounded-md text-center text-sm sm:text-lg text-white font-medium mx-auto my-2 pt-1'>Get started</Link>
+                    <Link to="/sign-up" className='w-52 sm:w-80 lg:w-[22rem] xl:w-80 h-8 sm:h-10 bg-fuchsia-400 hover:bg-fuchsia-500 rounded-md text-center text-sm sm:text-lg text-white font-bold mx-auto my-2 pt-1'>Get started</Link>
 
                     <div className='w-52 sm:w-80 lg:w-[22rem] xl:w-80 mx-auto'>
                         <div className='flex flex-row mt-2'>
