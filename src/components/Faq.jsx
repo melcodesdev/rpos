@@ -48,7 +48,7 @@ const Faq = () => {
             </div>
 
             <p className='text-xs sm:text-base lg:text-lg my-4 xl:ml-12 xl:mt-16 text-justify'>Dont find what you’re looking for? <br />
-                <a href='mailto:melcodes.dev@gmail.com' className='font-medium underline underline-offset-2 hover:opacity-50'>Send us an email</a>
+                <a href='mailto:idodevstuff@gmail.com' className='font-medium underline underline-offset-2 hover:opacity-50'>Send us an email</a>
             </p>
         </section>
     )
