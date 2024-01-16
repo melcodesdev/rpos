@@ -177,7 +177,7 @@ const Signup = () => {
         <div className="fixed inset-0 flex items-center justify-center z-50 bg-black bg-opacity-50">
         <div className="bg-white p-8 rounded-lg shadow-lg flex flex-col">
           <h2 className="text-lg mb-2">Hello, thank you for going this far. <br />
-          <a href='https://melcodesdev.netlify.app/' className='text-fuchsia-500 hover:underline'>Check out my other project.</a></h2>
+          <a href='https://idodevstuff.netlify.app/' className='text-fuchsia-500 hover:underline'>Check out my other project.</a></h2>
           <button className="hover:underline justify-end text-right text-xs" onClick={closeModal}>
             Close
           </button>
