@@ -6,7 +6,7 @@ const Faq = () => {
         <section className='flex flex-col mx-4 xs:mx-16 xl:mx-32 my-8 sm:my-16'>
             <h1 className='text-3xl xl:text-6xl font-medium mx-auto xl:mb-10'>F.A.Q</h1>
 
-            <div className='text-xs sm:text-base lg:text-lg my-4 xl:px-8 text-justify xl:grid xl:grid-cols-2'>
+            <div className='text-xs sm:text-base lg:text-lg my-4 xl:px-8 text-justify xl:grid xl:grid-cols-3 xl:gap-8'>
                 <div className='xl:m-4'>
                     <p className='font-semibold mt-6'>What is Rpos?</p>
                     <p className='mt-2'>Rpos is a cutting-edge Point of Sale (POS) software as a service (SaaS) designed specifically for restaurants. It provides a comprehensive suite of tools and features to help restaurant owners streamline their operations, manage orders, and enhance customer experiences.</p>
@@ -48,7 +48,7 @@ const Faq = () => {
             </div>
 
             <p className='text-xs sm:text-base lg:text-lg my-4 xl:ml-12 xl:mt-16 text-justify'>Dont find what you’re looking for? <br />
-                <a href='mailto:idodevstuff@gmail.com' className='font-medium underline underline-offset-2 hover:opacity-50'>Send us an email</a>
+                <a href='mailto:melcodes.dev@gmail.com' className='font-medium underline underline-offset-2 hover:opacity-50'>Send us an email</a>
             </p>
         </section>
     )
