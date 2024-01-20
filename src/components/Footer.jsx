@@ -8,7 +8,7 @@ const Footer = () => {
         <a href='#features' className='hover:underline'>Features</a>
         <a href='#testimonials' className='hover:underline'>Testimonials</a>
         <a href='#pricing' className='hover:underline'>Pricing</a>
-        <a href='mailto:idodevstuff@gmail.com' className='hover:underline'>Contact</a>
+        <a href='mailto:melcodes.dev@gmail.com' className='hover:underline'>Contact</a>
       </nav>
 
       <hr className='xl:mx-28' />
