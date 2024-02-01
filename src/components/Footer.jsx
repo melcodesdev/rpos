@@ -1,7 +1,6 @@
 import React from 'react'
 
 const Footer = () => {
-  // Nav bar and social sections
   return (
     <footer className='m-4 xs:mx-16 xl:mt-32 text-xs sm:text-base lg:text-lg opacity-50'>
       <nav className='flex flex-row justify-between my-2 sm:my-4 lg:mx-56 xl:mx-96'>
