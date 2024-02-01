@@ -19,9 +19,9 @@ const Homepage = () => {
     };
 
     return (
-        // Header + Hero + Client logo list section
+        // HEADER + HERO + CLIENT LOGO LIST SECTION
         <section className='h-screen flex flex-col'>
-            {/* --Left side header */}
+            {/* --LEFT SIDE HEADER */}
             <header className='flex flex-row justify-between items-center mt-5 lg:mt-8 mx-4 lg:mx-10 relative'>
                 <div className='flex flex-row'>
                     <img className='cursor-pointer w-7 lg:w-10 h-7 lg:h-10' src="/images/logo.png" alt="Rpos logo" onClick={handleRefresh} />
@@ -35,7 +35,7 @@ const Homepage = () => {
                     </nav>
                 </div>
 
-                {/* --Dropdown menu and header nav modal on mobile devices */}
+                {/* --DROPDOWN MENU AND HEADER NAV MODAL ON MOBILE DEVICES */}
                 <div className='relative'>
                     <button className='xl:hidden' onClick={toggleMenu}>
                         {isMenuOpen ? (
@@ -69,7 +69,7 @@ const Homepage = () => {
                     )}
                 </div>
                 
-                {/* --Right side header */}
+                {/* --RIGHT SIDE HEADER */}
                 <nav className='hidden xl:flex xl:flex-row font-inter text-lg mt-2'>
                     <Link to="/sign-in" className='mr-8 my-auto hover:underline'>
                         Sign in
@@ -81,7 +81,7 @@ const Homepage = () => {
                 </nav>
             </header>
 
-            {/* Hero section */}
+            {/* HERO SECTION */}
             <section className='font-inter flex flex-col justify-center items-center text-center mx-4 my-auto'>
                 <div>
                     <h1 className='font-semibold text-xl xs:text-3xl sm:text-5xl lg:text-7xl mt-8'>Restaurant point of sale, <br />
@@ -101,7 +101,7 @@ const Homepage = () => {
                 </div>
             </section>
 
-            {/* Clients logo list */}
+            {/* CLIENTS LOGO LIST */}
             <section className='flex flex-row w-screen h-20 xs:h-24 sm:h-32 overflow-x-scroll xl:overflow-x-hidden bg-neutral-100'>
                 <div className='flex flex-row mx-8 my-4 items-center xl:mx-auto opacity-70'>
                     <img className='h-7 lg:h-10' src="/images/jcybrgr.png" alt="Jcybrgr icon" />
