@@ -18,13 +18,12 @@ const Features = () => {
   ];
 
   return (
-    // Features section
     <section id='features' className='flex flex-col lg:min-h-screen bg-neutral-50 font-inter py-4 lg:py-8'>
       <h1 className='font-medium text-sm xs:text-xl sm:text-4xl mx-auto my-2 px-8'>Simplify, integrate and visualize</h1>
 
       <h2 className='text-xs xs:text-sm sm:text-xl mx-auto px-8'><span className='text-fuchsia-500'>All in one</span> easy-to-use portal</h2>
 
-      {/* Synchronizes clicked section with the image */}
+      {/* SYNCHRONIZES CLICKED SECTION WITH THE IMAGE */}
       <section className='xl:w-screen flex flex-col xl:flex-row xl:justify-center xl:mt-[10vh]'>
         <img className='xl:w-[40vw] h-full object-cover mt-8 mx-4 xs:mx-24 lg:mx-64 xl:mx-0 xl:ml-[10vw] lg:my-[5vh] border-4 border-neutral-100' src={images[activeDiv]} alt="Rpos dashboard" />
 
