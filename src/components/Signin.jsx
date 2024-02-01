@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
-// Sign in simple validation
+// SIGN IN VALIDATION
 const Signin = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
@@ -26,7 +26,7 @@ const Signin = () => {
   };
 
   return (
-    // Sign in form section
+    // SIGN IN FORM
     <section className='xl:flex xl:flex-row font-inter'>
       <div className='hidden xl:flex h-screen w-[60vw] bg-gradient-to-b from-fuchsia-500 to-rose-400 '></div>
 
@@ -39,7 +39,7 @@ const Signin = () => {
         <div className='flex flex-col my-auto xl:my-0'>
           <h3 className='font-semibold text-xl md:text-2xl mb-16'>Sign in to your account</h3>
 
-          {/* Gives error messages and red on errors */}
+          {/* GIVES ERROR MESSAGES AND RED ON ERRORS */}
           <div>
             <div className='flex flex-col'>
               <h3 className='text-base md:text-lg lg:text-xl mb-2'>Email</h3>
@@ -53,7 +53,7 @@ const Signin = () => {
                 value={email}
                 onChange={(e) => {
                   setEmail(e.target.value);
-                  // Clear error upon change
+                  // CLEAR ERROR UPON CHANGE
                   setEmailError(false);
                 }}
                 required
@@ -75,7 +75,7 @@ const Signin = () => {
                 value={password}
                 onChange={(e) => {
                   setPassword(e.target.value);
-                  // Clear error upon change
+                  // CLEAR ERROR UPON CHANGE
                   setPasswordError(false); 
                 }}
                 required
@@ -101,7 +101,7 @@ const Signin = () => {
         </div>
       </div>
       
-      {/* Shows modal upon valid attempt and clicking on the sign in button */}
+      {/* SHOWS MODAL UPON VALID ATTEMPT AND CLICKING ON THE SIGN IN BUTTON */}
       {showModal && (
         <div className="fixed inset-0 flex items-center justify-center z-50 bg-black bg-opacity-50">
           <div className="bg-white p-8 rounded-lg shadow-lg flex flex-col">
