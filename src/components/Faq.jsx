@@ -2,7 +2,6 @@ import React from 'react'
 
 const Faq = () => {
     return (
-        // FAQ section
         <section className='flex flex-col mx-4 xs:mx-16 xl:mx-32 my-8 sm:my-16'>
             <h1 className='text-3xl xl:text-6xl font-medium mx-auto xl:mb-10'>F.A.Q</h1>
 
@@ -14,7 +13,7 @@ const Faq = () => {
 
                 <div className='xl:m-4'>
                     <p className='font-semibold mt-6'>What types of restaurants can benefit from Rpos?</p>
-                    <p className='mt-2'>Rpos is a cutting-edge Point of Sale (POS) software as a service (SaaS) designed specifically for restaurants. It provides a comprehensive suite of tools and features to help restaurant owners streamline their operations, manage orders, and enhance customer experiences.</p>
+                    <p className='mt-2'>We are catering to a spectrum of dining establishments including quick-service restaurants, full-service dining, cafes, food trucks, bars, food delivery services, pop-up restaurants, and multi-location chains. Its adaptability ensures efficient order processing, inventory management, and customer service across various restaurant formats, making it an ideal solution for any food service business seeking streamlined operations and improved customer experiences.</p>
                 </div>
 
                 <div className='xl:m-4'>
