@@ -1,7 +1,5 @@
 # rpos
 
-A restaurant POS SaaS concept website.
+I wanted a project that showcases my skills in designing and developing a SaaS business landing page, so I built this restaurant PoS SaaS concept website.
 
-Vite, React.js, HTML, CSS, JavaScript, tailwindCSS, Git, Netlify.
-
-Mobile-first, Responsive Web Design, CSS Flexbox, React.js useState, React.js Router, DOM Manipulation, Event Listeners, Conditional Statements, Input Validation.
+Stacks: Vite, React.js, HTML, CSS, JavaScript, tailwindCSS, Git, Netlify.
