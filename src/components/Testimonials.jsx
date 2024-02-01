@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Testimonials = () => {
-  // Testimonial cards section
+  // TESTIMONIAL CARDS
   return (
     <section id='testimonials' className='lg:h-screen flex flex-col text-center font-inter pt-[5vh]'>
       <h1 className='text-xl sm:text-3xl xl:text-5xl mx-4'>We <span className='text-fuchsia-500 font-semibold'>love</span> our customers</h1>
