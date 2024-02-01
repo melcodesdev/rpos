@@ -1,20 +1,21 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
-//Simple sign up validation
+//SIGN UP VALIDATION
 const Signup = () => {
   const [firstName, setFirstName] = useState('');
   const [lastName, setLastName] = useState('');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [confirmPassword, setConfirmPassword] = useState('');
+
   const [showModal, setShowModal] = useState(false);
   const [isSubmitted, setIsSubmitted] = useState(false);
 
-  const [nameRegex] = useState(/^[A-Za-z\s]+$/); // Regular expression for letters and spaces
-
+  const [nameRegex] = useState(/^[A-Za-z\s]+$/); 
   const isEmailValid = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
-  const isPasswordValid = password.length >= 6; // Adjust the password validation as needed
+
+  const isPasswordValid = password.length >= 6; 
   const doPasswordsMatch = password === confirmPassword;
   const isFirstNameValid = nameRegex.test(firstName);
   const isLastNameValid = nameRegex.test(lastName);
@@ -38,7 +39,7 @@ const Signup = () => {
     setShowModal(false);
   };
 
-  //Sign up form section
+  //SIGN UP FORM
   return (
     <section className='xl:flex xl:flex-row font-inter'>
       <div className='hidden xl:flex h-screen w-[60vw] bg-gradient-to-b from-fuchsia-500 to-rose-400 '></div>
@@ -52,7 +53,7 @@ const Signup = () => {
         <div className='flex flex-col my-auto xl:my-0'>
           <h3 className='font-semibold text-xl md:text-2xl mb-16'>Register an account</h3>
 
-          {/* Shows error messages and red on errors */}
+          {/* SHOWS ERROR MESSAGES AND RED ON ERRORS */}
           <div>
             <div className='flex flex-row'>
               <div className='flex flex-col w-1/2 pr-4'>
@@ -172,7 +173,7 @@ const Signup = () => {
         </div>
       </div>
       
-      {/* Shows modal upon valid attempt and clicking on the sign up button */}
+      {/* SHOWS MODAL UPON VALID ATTEMPT AND CLICKING ON THE SIGN UP BUTTON */}
       {showModal && (
         <div className="fixed inset-0 flex items-center justify-center z-50 bg-black bg-opacity-50">
         <div className="bg-white p-8 rounded-lg shadow-lg flex flex-col">
