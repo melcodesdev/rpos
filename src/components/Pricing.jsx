@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Pricing = () => {
     return (
-        // Pricing plan cards section
+        // PRICING PLAN CARDS
         <section id='pricing' className='xl:min-h-screen flex flex-col w-screen bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 font-inter'>
             <h1 className='text-3xl sm:text-6xl text-white font-semibold mx-auto my-8 px-4 pt-8'>Get started today</h1>
 
